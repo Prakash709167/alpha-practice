@@ -12,6 +12,7 @@ public class Stocks {
                 costprice = n[i];
             }
         }
+        System.out.println("Buying price is "+ costprice);
         System.out.println("Maximum profit : "+ maxprofit);
     }
     public static void main(String args []){
